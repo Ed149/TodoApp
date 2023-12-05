@@ -23,7 +23,7 @@ export const CreateToDo = ({ theme = "dark", createTodo }: any) => {
 
 
   return (
-    <form onSubmit={handleOnSubmit} className="create__todo">
+    <form onSubmit={handleOnSubmit} className={`create__todo ${theme}`}>
       <Todo handleChange={handleInputChange} todo={todo}/>
     </form>
   )

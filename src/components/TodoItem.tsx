@@ -1,4 +1,3 @@
-import React from 'react'
 import cross from '/src/assets/icon-cross.svg'
 
 export const TodoItem = ({ todo, deleteTodo, updateTodo }: any) => {

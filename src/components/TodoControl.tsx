@@ -1,5 +1,3 @@
-import React, { useState } from 'react'
-
 export const TodoControl = ({getTodos,active}:any) => {
 
 
